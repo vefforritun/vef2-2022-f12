@@ -9,5 +9,7 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
+  // skrifað í ws
+  // sent e-ð
   res.status(200).json({ name: 'John Doe' })
 }
